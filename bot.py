@@ -20,7 +20,7 @@ from pyrogram import (
     Client,
     __version__
 )
-from . import (
+from import (
     API_HASH,
     APP_ID,
     LOGGER,
@@ -28,7 +28,7 @@ from . import (
     TG_BOT_TOKEN,
     TG_BOT_WORKERS
 )
-from .user import User
+from user import User
 
 
 class Bot(Client):
