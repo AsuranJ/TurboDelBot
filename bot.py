@@ -42,7 +42,7 @@ class Bot(Client):
             api_hash=API_HASH,
             api_id=APP_ID,
             plugins={
-                "root": "bot/plugins"
+                "root": "./bot/plugins"
             },
             workers=TG_BOT_WORKERS,
             bot_token=TG_BOT_TOKEN
