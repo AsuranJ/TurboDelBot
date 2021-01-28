@@ -20,7 +20,7 @@ from pyrogram import (
     Client,
     __version__
 )
-from . import (
+from import (
     API_HASH,
     APP_ID,
     LOGGER,
