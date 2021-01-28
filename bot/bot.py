@@ -20,7 +20,8 @@ from pyrogram import (
     Client,
     __version__
 )
-from __init__.py import (
+
+from .bot import (
     API_HASH,
     APP_ID,
     LOGGER,
